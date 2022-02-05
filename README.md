@@ -44,3 +44,20 @@ HTML
 BOOTSTRAPS
 
 
+### LOGIN
+![Screenshot](login.png)
+
+### INPUT
+![Screenshot](input.png)
+
+### GENERATED QR
+![Screenshot](QR.png)
+
+### LEGIT PRODUCT
+![Screenshot](legit.png)
+
+### COUNTERFEIT PRODUCT
+![Screenshot](counterfeit.png)
+
+
+
