@@ -1,0 +1,39 @@
+h1 {
+    max-height: 1px;
+    font-size: 50px;
+}
+
+.center, .details{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+#details {
+    font-size: 22px;
+    padding-left: 35%;
+}
+
+.details-form {
+    padding-left: 20%;
+    padding-top: 2%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#Display label {
+    font-weight: 700;
+}
+
+#Display label span {
+    font-weight: 400;
+}

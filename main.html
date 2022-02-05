@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>Manufacturer</title>
+    </head>
+    <body>
+        <header class="jumbotron align-self-center">
+            <div class="container">
+                <h1 class="text-center">Manufacturer</h1>
+            </div>
+        </header>
+        <div class="align-self-center">
+            <span class="text-center" id="details">Enter details of your product</span>
+        </div>
+        <div class="row row-content justify-content-center">
+            <div class="col-sm-8">
+                <!-- <form class="details-form"> -->
+                    <form class="details-form" action="display.html">
+                    <div class="form-group row">
+                        <label for="product_name" class="col-12 col-md-2 col-form-label">Product Name</label>
+                        <div class="col-6 col-md-5">
+                            <input type="text" name="pname" id="prodname" placeholder="Enter Product Name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="quantity" class="col-12 col-md-2 col-form-label">Quantity</label>
+                        <div class="col-6 col-md-5">
+                            <input type="number" name="quant" id="quant" placeholder="Enter Quantity" class="form-control" min="0">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="manufacturer" class="col-12 col-md-2 col-form-label">Manufacturer</label>
+                        <div class="col-6 col-md-5">
+                            <input type="text" name="manufact" id="manufact" placeholder="Enter Manufacturer's Name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="supplier" class="col-12 col-md-2 col-form-label">Supplier</label>
+                        <div class="col-6 col-md-5">
+                            <input type="text" name="supp" id="supp" placeholder="Enter Supplier's Name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="amount" class="col-12 col-md-2 col-form-label">Amount</label>
+                        <div class="col-6 col-md-5">
+                            <input type="number" name="price" id="price" placeholder="Enter Price" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary" onclick="input()">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="node_modules/axios/dist/axios.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

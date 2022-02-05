@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>Shark</title>
+    </head>
+    <body>
+        <header class="jumbotron align-items-center">
+            <div class="container">
+                <h1 class="text-center">Login</h1>
+            </div>
+        </header>
+        <div class="row row-content justify-content-center">
+            <div class="col-sm-8">
+                <form class="center" action="main.html">
+                    <div class="form-group row">
+                        <label for="username" class="col-12 col-md-2 col-form-label">Username:</label>
+                        <div class="col-6 col-md-5">
+                            <input type="text" name="uname" id="uname" placeholder="Enter Username" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="password" class="col-12 col-md-2 col-form-label">Password:</label>
+                        <div class="col-6 col-md-5">
+                            <input type="password" name="pass" id="pass" placeholder="Enter Password" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">
+                                Login
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="node_modules/axios/dist/axios.min.js"></script>
+    </body>
+</html>

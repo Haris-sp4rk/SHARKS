@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>Manufacturer</title>
+    </head>
+    <body onload="display()">
+        <header class="jumbotron align-self-center">
+            <div class="container">
+                <h1 class="text-center">Manufacturer</h1>
+            </div>
+        </header>
+        <div class="row row-content justify-content-center" id="Display">
+            <div class="col-sm-6 col-lg-4">
+                <label for="productname" class="col-12 col-md-2 col-form-label">Product Name: 
+                    <span id="prod"></span>
+                </label>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <label for="quantity" >Quantity: 
+                <!-- <label for="quantity" class="col-12 col-md-2 col-form-label">Quantity:  -->
+                    <span id="qn"></span>
+                </label>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <label for="manufacturer" class="col-12 col-md-2 col-form-label">Manufacturer: 
+                    <span id="manfct"></span>
+                </label>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <label for="supplier" class="col-12 col-md-2 col-form-label">Supplier: 
+                    <span id="supl"></span>
+                </label>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <label for="amount" class="col-12 col-md-2 col-form-label">Amount: 
+                    <span id="pr"></span>
+                </label>
+            </div>
+        </div>
+        <script src="node_modules/axios/dist/axios.min.js"></script>
+        <script>
+            window.onload = function () {
+                var p = localStorage.getItem("Pname");
+                document.getElementById("prod").innerHTML = p;
+                var q = localStorage.getItem("Quan");
+                document.getElementById("qn").innerHTML = q;
+                var m = localStorage.getItem("manuf");
+                document.getElementById("manfct").innerHTML = m;
+                var s = localStorage.getItem("suppl");
+                document.getElementById("supl").innerHTML = s;
+                var prc = localStorage.getItem("amnt");
+                document.getElementById("pr").innerHTML = prc;
+            }
+        </script>
+    </body>
+</html>
