@@ -39,6 +39,6 @@ input[type=number] {
 }
 
 .index {
-    background-image: url('/i.jpg');
+    background-image: url('/pic.jpg');
     background-size: cover;
 }

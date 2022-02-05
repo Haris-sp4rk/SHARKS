@@ -15,8 +15,8 @@ We created a personal Blockchain for the solution in which a manufacturer can ma
 <img alt="NPM" src="https://img.shields.io/badge/npm-npm?&style=for-the-badge&logo=npm&logoColor=fff&color=CB3837"/>
 <img alt="Github" src="https://img.shields.io/badge/Github-Github?&style=for-the-badge&logo=github&logoColor=fff&color=181717"/>
 <img alt="Github Actions" src="https://img.shields.io/badge/Github%20Actions-Github%20Actions?&style=for-the-badge&logo=github%20actions&logoColor=fff&color=2088FF"/>
-<img alt="Flask" src="https://img.shields.io/badge/Github%20Actions-Github%20Actions?&style=for-the-badge&logo=github%20actions&logoColor=fff&color=2088FF"/>
-<img alt="Flask" src="https://www.google.com/search?q=bootstrap&tbm=isch&ved=2ahUKEwjQ9vyE7uj1AhWQhP0HHZSMB3AQ2-cCegQIABAA&oq=bootstrap&gs_lcp=CgNpbWcQAzIHCCMQ7wMQJzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECAAQGDoGCAAQCBAeOgQIABAeUJAGWLoOYPAQaABwAHgBgAGxBIgB1g2SAQkwLjEuNC41LTGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=O5X-YZDtLpCJ9u8PlJmegAc&bih=637&biw=1326&client=opera&hs=x05#imgrc=mR67Akf4AQZl4M"/>
+
+
   </a>
 </p>
 
