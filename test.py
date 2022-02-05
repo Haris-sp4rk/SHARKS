@@ -10,7 +10,7 @@ import time
 from flask import Flask, request
 import requests
 import pyqrcode
-
+from flask import render_template
 def qr_code(s):
     
     d = pyqrcode.create(s)
@@ -165,10 +165,12 @@ def verification(hash):
     for block in blockchain.chain:
         print(block.hash)
         if hash == block.hash:
-            return json.dumps({"status":"True"})
+            # return json.dumps({"status":"True"})
+            return render_template("legit.html")
             
         
-    return json.dumps({"status":"False"})
+    #return json.dumps({"status":"False"})
+    return render_template("counterfeit.html")
 
 
 # In[45]:
