@@ -42,3 +42,7 @@ input[type=number] {
     background-image: url('/pic.jpg');
     background-size: cover;
 }
+
+.text-success, .text-danger {
+    padding-top: 150px;
+}
