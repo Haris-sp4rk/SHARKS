@@ -20,3 +20,27 @@ We created a personal Blockchain for the solution in which a manufacturer can ma
   </a>
 </p>
 
+
+ ## Tools Used
+### FOR BLOCKCHAIN
+PYTHON 
+FLASK
+SHA256
+
+We basically created an API with smart contract to execute our Blockchain and authentication
+
+### FOR BACKEND
+PYHTON
+DJANGO
+SQLLITE
+JAVASCRIPT
+
+We basically created a BACKEND server for just login later in future we will add a Decentralized login system for this purpose
+
+
+### FOR FRONTEND 
+CSS 
+HTML
+BOOTSTRAPS
+
+
