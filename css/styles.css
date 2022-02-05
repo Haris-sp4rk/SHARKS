@@ -4,8 +4,8 @@ h1 {
 }
 
 .center, .details{
-    padding-left: 10%;
-    padding-top: 10%;
+    padding-left: 20%;
+    padding-top: 15%;
 }
 
 #details {
@@ -36,4 +36,9 @@ input[type=number] {
 
 #Display label span {
     font-weight: 400;
+}
+
+.index {
+    background-image: url('/i.jpg');
+    background-size: cover;
 }
