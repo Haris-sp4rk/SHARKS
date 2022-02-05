@@ -43,6 +43,8 @@ CSS
 HTML
 BOOTSTRAPS
 
+## Code Distribution
+BLOCKCHAIN CREATED in BLOCKCHAIN.py
 
 ### LOGIN
 ![Screenshot](login.png)
@@ -51,6 +53,7 @@ BOOTSTRAPS
 ![Screenshot](input.png)
 
 ### GENERATED QR
+QR is maded with HASH of Block and API
 ![Screenshot](QR.png)
 
 ### LEGIT PRODUCT
