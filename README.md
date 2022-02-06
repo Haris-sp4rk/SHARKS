@@ -9,6 +9,10 @@ Build a web-app that solves this problem by leveraging blockchain features such 
 ### Our Approach
 We created a personal Blockchain for the solution in which a manufacturer can make its items a part of block chain and our solution  will create a unique hash and a QR code corresponding to that hash so nobody can counterfeit it. To check the authenticity of the product user can scan the QR code which will lead them to our web app and it will check the hash of the product in the blockchain if the block exsists than it is a authentic product.
 
+### Our Presentation Video
+[![Everything Is AWESOME](https://img.youtube.com/vi/Zxl2NnAAJTE/0.jpg)](https://youtu.be/Zxl2NnAAJTE )
+
+
 <p align="left">
  <a href="#">
 <img alt="JavaScript" src="https://img.shields.io/badge/Javascript-Javascript?&style=for-the-badge&logo=javascript&logoColor=fff&color=F7DF1E"/>
